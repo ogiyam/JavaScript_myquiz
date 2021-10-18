@@ -332,113 +332,286 @@ const myQuestions = [
     correctAnswer: "a"
  },
  {
-    question: "?(16)",
+    question: "より高速な整列アルゴリズムについて正しい説明は?(16)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>",
+      a: "シェルソート：中間的な基準値を決めて値のグループ間で大小を判別し、それをもとに整列する<br>",
+      b: "クイックソート：一定間隔おきに取り出した要素で部分列を作り、その中で整列し元に戻す<br>",
+      c: "ヒープソート：未整列部分を順序木構造に構成、最大値もしくは最小値を取り出して整列済に戻す<br>",
     },
     correctAnswer: "c"
  },
  {
-    question: "?(16)",
+    question: "オブジェクト指向の説明として間違っているものは?(16)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "b"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "b"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "b"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "a"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
+      a: "データ（属性）とメソッド（手続き）を一つにまとめた概念である<br>",
+      b: "特徴として情報隠蔽が利点として挙げられる「カプセル化」がある<br>",
+      c: "「カプセル化」はデータがオブジェクトの管理下となるため他オブジェクトが容易にデータにアクセスすることができる<br>"
     },
     correctAnswer: "c"
  },
  {
-    question: "?(16)",
+    question: "クラスとインスタンスについて間違っているのは?(16)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
+      a: "クラスの考え方の基本は「オブジェクトを具体化して定義する」ことである<br>",
+      b: "クラス定義に対して具体的な属性値を与えメモリ上の領域を確保して実体化したものがインスタンスである<br>",
+      c: "ひとつのクラスから属性値によって様々なインスタンスが生成される<br>"
     },
     correctAnswer: "a"
  },
  {
-    question: "?(16)",
+    question: "「クラスの階層化」について間違っているのは?(16)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "a"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
+      a: "上位クラスをスーパークラス（基底クラス）、下位クラスをサブクラス（派生クラス）という<br>",
+      b: "複数のオブジェクトに共通するインスタンスを抽出して階層化したものをクラスの階層化という<br>",
+      c: "サブクラスがスーパークラスの特性を受け継ぐことを継承（インヘリタンス）という<br>"
     },
     correctAnswer: "b"
  },
  {
-    question: "?(16)",
+    question: "クラスの関係性について間違っている説明は?(16)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "a"
- },
- {
-    question: "?(16)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
+      a: "汎化と特化（is a関係）：上位クラスがスーパークラスと下位クラスがサブクラスの関係になるとき成り立つ<br>",
+      b: "集約と分解（part of関係）：継承関係のある上位クラスと下位クラスの関係<br>",
+      c: "多態性/多相性（ポリモーフィズム）：同メッセージを複数のオブジェクトに送った際それぞれが固有の処理を行う<br>"
     },
     correctAnswer: "b"
  },
  {
-    question: "?(16)",
+    question: "オブジェクト指向分析を用いてモデリングした時、クラスとオブジェクトの関係になるのは?(16)",
+    answers: {
+      a: "ドラえもん、のび太<br>",
+      b: "ドラえもん、ネジ<br>",
+      c: "ドラえもん、人型ロボット<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "属性・メソッド・インスタンス、クラスについて間違っているものは?(16)",
+    answers: {
+      a: "属性：クラスの中に定義されるオブジェクトの状況を保持するための入れ物<br>",
+      b: "メソッド：クラスの中に定義されるオブジェクトの持つ振る舞いを記述したもの<br>",
+      c: "インスタンス：ソースプログラムがコンパイルされて実行可能なプログラムになり、それが主記憶装置にロードされ、動作可能な状態になったもの<br>",
+      d: "クラス：一つのインスタンスの仕様を定義したもの"
+    },
+    correctAnswer: "d"
+ },
+ {
+    question: "UML（Unified Modeling Language）についての説明として正しいのは?(16)",
+    answers: {
+      a: "主にオブジェクト指向プログラミングにおいて設計で用いられる統一モデリング言語である<br>",
+      b: "規定されている図が１１種類あり必要に応じて使い分ける<br>",
+      c: "規定ダイアグラムは大きく分けて「構造図」「振る舞い図」に二分され、振る舞い図の中のシーケンス図・コミュニケーション図をまとめて相互作用図という場合がある<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "UMLをビジネスモデリングに用いる場合、ビジネスプロセスの実行順序や条件による分岐などのワークフローを表すことができる図は?(16)",
+    answers: {
+      a: "オブジェクト図<br>",
+      b: "アクティビティ図<br>",
+      c: "コンポーネント図<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "UML2.0のシーケンス図とコミュニケーション図のどちらにも表現されるものは?(16)",
+    answers: {
+      a: "オブジェクトがメッセージを処理している期間<br>",
+      b: "オブジェクトがある状態にとどまる最短時間あよび最長時間<br>",
+      c: "オブジェクト間で送受信されるメッセージ<br>"
+    },
+    correctAnswer: "c"
+ },
+ 
+  {
+    question: "?(11)",
     answers: {
       a: "<br>",
       b: "<br>",
       c: "<br>"
     },
     correctAnswer: "c"
- }
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+ },
+ {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "?(11)",
+    answers: {
+      a: "<br>",
+      b: "<br>",
+      c: "<br>"
+    },
+    correctAnswer: "c"
+  }
 ];
 
 
