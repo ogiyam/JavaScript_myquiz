@@ -672,34 +672,53 @@ const myQuestions = [
     correctAnswer: "c"
   },
   {
-    question: "?(11)",
+    question: "メモリの大分類として、RAM(Random Access Memory)とROM(Random Only Memory)があるが、それぞれの特性について正しい組み合わせは?(6)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question: "?(11)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "c"
-  },
-  {
-    question: "?(11)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
+      a: "RAMの特性：「読み書き可で不揮発性」　ROMの特性：「読み出し専用で揮発性」<br>",
+      b: "RAMの特性：「読み書き可で揮発性」　ROMの特性：「読み出し専用で不揮発性」<br>",
+      c: "RAMの特性：「読み出し専用で揮発性」　ROMの特性：「読み書き可で不揮発性」<br>"
     },
     correctAnswer: "b"
   },
   {
-    question: "?(11)",
+    question: "RAM(Random Access Memory)はさらにDRAM(Dynamic RAM)とSRAM(Static RAM)に分かれる。DRAMの特徴として間違っているものは?(6)",
+    answers: {
+      a: "安価で集積度が高いが低速、主に主記憶装置に使用される<br>",
+      b: "使用する回路はコンデンサであり、コンデンサに蓄えた電荷の有無で情報を記憶するメモリである<br>",
+      c: "コンデンサを使用しているため内容を再書き込みするリフレッシュ動作は不要である<br>",
+      d: "SDRAMはDRAMの一種であり、DRAMよりも高速に動作する"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "RAM(Random Access Memory)はさらにDRAM(Dynamic RAM)とSRAM(Static RAM)に分かれる。SRAMの特徴として間違っているものは?(6)",
+    answers: {
+      a: "高価で集積度が低く高速、キャッシュメモリに用いられる<br>",
+      b: "使用する回路はフリップフロップ回路である<br>",
+      c: "フリップフロップ回路を使用しているためリフレッシュ動作が必要となる<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "ROM(Random Only Memory)について間違っている記述は?(6)",
+    answers: {
+      a: "PROM（Programmable ROM）という種類は、ユーザーの手で書き換えることができるROMである<br>",
+      b: "マスクROMは製造時にデータを書き込んで出荷され、以降データを書き換える時は専用装置が必要となる。通常の「ROM」を指す<br>",
+      c: "デジタルカメラなどで利用されているメモリーカード（SDカード）はPROMの１種であり、フラッシュメモリと呼ばれる<br>"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "ROM(Random Only Memory)の種類について間違っている記述は?(6)",
+    answers: {
+      a: "EPROM(Erasable ROM):紫外線でデータを消去してデータを書き換える<br>",
+      b: "EEPROM(Electlically PROM):電気的にデータを消去して書き換えるbr>",
+      c: "フラッシュメモリ:PROMの１種であり、ブロック単位でデータを消去して書き換える<br>"
+    },
+    correctAnswer: ""
+  },
+  {
+    question: "?(6)",
     answers: {
       a: "<br>",
       b: "<br>",
@@ -707,24 +726,6 @@ const myQuestions = [
     },
     correctAnswer: "c"
   },
-  {
-    question: "?(11)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "b"
-  },
-  {
-    question: "?(11)",
-    answers: {
-      a: "<br>",
-      b: "<br>",
-      c: "<br>"
-    },
-    correctAnswer: "c"
-  }
 ];
 
 
