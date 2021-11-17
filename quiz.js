@@ -1053,29 +1053,31 @@ const myQuestions = [
     correctAnswer: "c"
   },
   {
-    question: "?(12)",
+    question: "同一ネットワーク内の全ホストに対して一斉に同じデータを送信することをなんという?(12)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: ""
+      a: "ブロードキャスト<br>",
+      b: "ユニキャスト<br>",
+      c: "マルチキャスト",
+      d: "サブネットマスク"
     },
-    correctAnswer: ""
+    correctAnswer: "a"
   },
   {
-    question: "?(12)",
+    question: "ホスト数はそんなにいらないが事業部ことにネットワークを分けたいという場合どの方法で実現すると良いか?(12)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: ""
+      a: "ブロードキャスト<br>",
+      b: "ユニキャスト<br>",
+      c: "マルチキャスト",
+      d: "サブネットマスク"
     },
-    correctAnswer: ""
+    correctAnswer: "d"
   },
   {
-    question: "?(12)",
+    question: "プライベートIPアドレスを持つ複数の端末が一つのグローバルIPアドレスを使ってインターネット接続を実現するものはどれか?(12)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: ""
+      a: "DNS<br>",
+      b: "DHCP<br>",
+      c: "NAPT"
     },
     correctAnswer: ""
   },
