@@ -1079,25 +1079,79 @@ const myQuestions = [
       b: "DHCP<br>",
       c: "NAPT"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?(12)",
+    question: "TCP及びUDPのプロトコル処理において通信相手のアプリケーションを識別するのに使われるものは?(12)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: ""
+      a: "IPアドレス<br>",
+      b: "プロトコル番号<br>",
+      c: "ポート番号"
     },
-    correctAnswer: ""
+    correctAnswer: "c"
   },
   {
-    question: "?(12)",
+    question: "Webページの転送に利用するプロトコルでWebブラウザを使ってHTMLで記述された文書を受信するときなどに使用するのは?(12)",
     answers: {
-      a: "<br>",
-      b: "<br>",
-      c: ""
+      a: "FTP<br>",
+      b: "HTTP<br>",
+      c: "SMTP"
     },
-    correctAnswer: ""
+    correctAnswer: "b"
+  },
+  {
+    question: "ファイル転送サービスに利用するものでサーバへのアップロードやサーバからのダウンロードするときに使用するのは?(12)",
+    answers: {
+      a: "FTP<br>",
+      b: "HTTP<br>",
+      c: "SMTP"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "他のコンピュータにログインして遠隔操作を行う際に使用するプロトコルは?(12)",
+    answers: {
+      a: "NTP<br>",
+      b: "Telnet<br>",
+      c: "POP"
+    },
+    correctAnswer: "b"
+  },
+  {
+    question: "電子メールの配送部分を担当するプロトコルでメール送信時やメールサーバ間での送受信時に使用するのは?(12)",
+    answers: {
+      a: "FTP<br>",
+      b: "HTTP<br>",
+      c: "SMTP"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "電子メールの受信部分を担当するプロトコルでメールサーバ上にあるメールボックスからメールを取り出す際に使用するのは?(12)",
+    answers: {
+      a: "NTP<br>",
+      b: "Telnet<br>",
+      c: "POP"
+    },
+    correctAnswer: "c"
+  },
+  {
+    question: "コンピュータの時刻合わせを行うプロトコルは?(12)",
+    answers: {
+      a: "NTP<br>",
+      b: "Telnet<br>",
+      c: "POP"
+    },
+    correctAnswer: "a"
+  },
+  {
+    question: "TCP/IPを利用する環境で電子メールに画像・音声などを添付する規格は?(12)",
+    answers: {
+      a: "HTML<br>",
+      b: "MIME<br>",
+      c: "SMTP"
+    },
+    correctAnswer: "b"
   },
   {
     question: "クライアントサーバシステムについてシンクライアントの特徴として間違っているのは?(17)",
